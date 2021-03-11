@@ -69,7 +69,7 @@ export default function App() {
       </TouchableOpacity>
       {password !== "" ? (
         <View style={styles.area}>
-          <Text style={styles.password} onPress={copyToClipboard}>
+          <Text style={styles.password} onLongPress={copyToClipboard}>
             {password}
           </Text>
         </View>
